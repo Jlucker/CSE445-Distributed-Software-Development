@@ -1,0 +1,24 @@
+﻿<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="TodoList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="TodoItem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="GlobalID"/>
+              <xs:element type="xs:byte" name="ListID"/>
+              <xs:element type="xs:byte" name="ListLabel"/>
+              <xs:element type="xs:byte" name="ListDateCreated"/>
+              <xs:element type="xs:byte" name="ItemID"/>
+              <xs:element type="xs:byte" name="ItemLabel"/>
+              <xs:element type="xs:byte" name="ItemDateCreated"/>
+              <xs:element type="xs:byte" name="ItemDueDate"/>
+              <xs:element type="xs:byte" name="ItemNotes"/>
+              <xs:element type="xs:byte" name="ItemComplete"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

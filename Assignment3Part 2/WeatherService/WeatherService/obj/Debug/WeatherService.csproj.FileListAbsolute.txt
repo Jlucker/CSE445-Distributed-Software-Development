@@ -1,0 +1,14 @@
+J:\Projects\WeatherService\WeatherService\bin\WeatherService.dll.config
+J:\Projects\WeatherService\WeatherService\bin\WeatherService.dll
+J:\Projects\WeatherService\WeatherService\bin\WeatherService.pdb
+J:\Projects\WeatherService\WeatherService\obj\Debug\WeatherService.csprojResolveAssemblyReference.cache
+J:\Projects\WeatherService\WeatherService\obj\Debug\WeatherService.dll
+J:\Projects\WeatherService\WeatherService\obj\Debug\WeatherService.pdb
+J:\Projects\WeatherService\WeatherService\bin\Newtonsoft.Json.xml
+C:\Users\risin\Desktop\Assignment 3 Part 2 - Justin Lucker\WeatherService\WeatherService\bin\WeatherService.dll.config
+C:\Users\risin\Desktop\Assignment 3 Part 2 - Justin Lucker\WeatherService\WeatherService\bin\WeatherService.dll
+C:\Users\risin\Desktop\Assignment 3 Part 2 - Justin Lucker\WeatherService\WeatherService\bin\WeatherService.pdb
+C:\Users\risin\Desktop\Assignment 3 Part 2 - Justin Lucker\WeatherService\WeatherService\bin\Newtonsoft.Json.xml
+C:\Users\risin\Desktop\Assignment 3 Part 2 - Justin Lucker\WeatherService\WeatherService\obj\Debug\WeatherService.csprojResolveAssemblyReference.cache
+C:\Users\risin\Desktop\Assignment 3 Part 2 - Justin Lucker\WeatherService\WeatherService\obj\Debug\WeatherService.dll
+C:\Users\risin\Desktop\Assignment 3 Part 2 - Justin Lucker\WeatherService\WeatherService\obj\Debug\WeatherService.pdb

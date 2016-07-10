@@ -1,0 +1,14 @@
+J:\Projects\TemperatureForm\TemperatureForm\bin\Debug\TemperatureForm.exe.config
+J:\Projects\TemperatureForm\TemperatureForm\bin\Debug\TemperatureForm.exe
+J:\Projects\TemperatureForm\TemperatureForm\bin\Debug\TemperatureForm.pdb
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\TemperatureForm.csprojResolveAssemblyReference.cache
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\MainWindow.g.cs
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\App.g.cs
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\TemperatureForm_MarkupCompile.cache
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\TemperatureForm_MarkupCompile.lref
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\MainWindow.baml
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\TemperatureForm.g.resources
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\TemperatureForm.Properties.Resources.resources
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\TemperatureForm.csproj.GenerateResource.Cache
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\TemperatureForm.exe
+J:\Projects\TemperatureForm\TemperatureForm\obj\Debug\TemperatureForm.pdb

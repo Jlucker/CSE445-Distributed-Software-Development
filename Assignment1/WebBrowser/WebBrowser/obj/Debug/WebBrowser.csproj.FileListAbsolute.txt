@@ -1,0 +1,14 @@
+J:\Projects\WebBrowser\WebBrowser\bin\Debug\WebBrowser.exe.config
+J:\Projects\WebBrowser\WebBrowser\bin\Debug\WebBrowser.exe
+J:\Projects\WebBrowser\WebBrowser\bin\Debug\WebBrowser.pdb
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csprojResolveAssemblyReference.cache
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\MainWindow.g.cs
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\App.g.cs
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\WebBrowser_MarkupCompile.cache
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\WebBrowser_MarkupCompile.lref
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\MainWindow.baml
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\WebBrowser.g.resources
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\WebBrowser.Properties.Resources.resources
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csproj.GenerateResource.Cache
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\WebBrowser.exe
+J:\Projects\WebBrowser\WebBrowser\obj\Debug\WebBrowser.pdb

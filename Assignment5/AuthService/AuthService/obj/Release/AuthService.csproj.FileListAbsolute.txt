@@ -1,0 +1,6 @@
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\bin\AuthService.dll.config
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\bin\AuthService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\bin\AuthService.pdb
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\obj\Release\AuthService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\obj\Release\AuthService.pdb
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\obj\Release\AuthService.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+J:\Projects\TodoService\TodoService\bin\TodoService.dll.config
+J:\Projects\TodoService\TodoService\bin\TodoService.dll
+J:\Projects\TodoService\TodoService\bin\TodoService.pdb
+J:\Projects\TodoService\TodoService\obj\Debug\TodoService.dll
+J:\Projects\TodoService\TodoService\obj\Debug\TodoService.pdb
+J:\Projects\TodoService\TodoService\obj\Debug\TodoService.csprojResolveAssemblyReference.cache

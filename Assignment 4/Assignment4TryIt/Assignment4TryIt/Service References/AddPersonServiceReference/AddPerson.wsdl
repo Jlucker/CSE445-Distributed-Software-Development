@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AddPerson" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:27294/AddPerson.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:27294/AddPerson.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:27294/AddPerson.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AddPerson" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAddPerson_AddNewPerson_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddNewPerson" />
+  </wsdl:message>
+  <wsdl:message name="IAddPerson_AddNewPerson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddNewPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAddPerson_RemovePerson_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemovePerson" />
+  </wsdl:message>
+  <wsdl:message name="IAddPerson_RemovePerson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemovePersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAddPerson_UserIdCheck_InputMessage">
+    <wsdl:part name="parameters" element="tns:UserIdCheck" />
+  </wsdl:message>
+  <wsdl:message name="IAddPerson_UserIdCheck_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UserIdCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAddPerson_PersonNameCheck_InputMessage">
+    <wsdl:part name="parameters" element="tns:PersonNameCheck" />
+  </wsdl:message>
+  <wsdl:message name="IAddPerson_PersonNameCheck_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PersonNameCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAddPerson_GetPersons_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersons" />
+  </wsdl:message>
+  <wsdl:message name="IAddPerson_GetPersons_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAddPerson">
+    <wsdl:operation name="AddNewPerson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAddPerson/AddNewPerson" message="tns:IAddPerson_AddNewPerson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAddPerson/AddNewPersonResponse" message="tns:IAddPerson_AddNewPerson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemovePerson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAddPerson/RemovePerson" message="tns:IAddPerson_RemovePerson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAddPerson/RemovePersonResponse" message="tns:IAddPerson_RemovePerson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UserIdCheck">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAddPerson/UserIdCheck" message="tns:IAddPerson_UserIdCheck_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAddPerson/UserIdCheckResponse" message="tns:IAddPerson_UserIdCheck_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PersonNameCheck">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAddPerson/PersonNameCheck" message="tns:IAddPerson_PersonNameCheck_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAddPerson/PersonNameCheckResponse" message="tns:IAddPerson_PersonNameCheck_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPersons">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAddPerson/GetPersons" message="tns:IAddPerson_GetPersons_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAddPerson/GetPersonsResponse" message="tns:IAddPerson_GetPersons_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAddPerson" type="tns:IAddPerson">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddNewPerson">
+      <soap:operation soapAction="http://tempuri.org/IAddPerson/AddNewPerson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemovePerson">
+      <soap:operation soapAction="http://tempuri.org/IAddPerson/RemovePerson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserIdCheck">
+      <soap:operation soapAction="http://tempuri.org/IAddPerson/UserIdCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PersonNameCheck">
+      <soap:operation soapAction="http://tempuri.org/IAddPerson/PersonNameCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPersons">
+      <soap:operation soapAction="http://tempuri.org/IAddPerson/GetPersons" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AddPerson">
+    <wsdl:port name="BasicHttpBinding_IAddPerson" binding="tns:BasicHttpBinding_IAddPerson">
+      <soap:address location="http://localhost:27294/AddPerson.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

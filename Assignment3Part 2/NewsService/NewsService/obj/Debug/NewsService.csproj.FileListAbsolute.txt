@@ -1,0 +1,8 @@
+J:\Projects\NewsService\NewsService\bin\NewsService.dll.config
+J:\Projects\NewsService\NewsService\bin\NewsService.dll
+J:\Projects\NewsService\NewsService\bin\NewsService.pdb
+J:\Projects\NewsService\NewsService\obj\Debug\NewsService.csprojResolveAssemblyReference.cache
+J:\Projects\NewsService\NewsService\obj\Debug\NewsService.dll
+J:\Projects\NewsService\NewsService\obj\Debug\NewsService.pdb
+J:\Projects\NewsService\NewsService\bin\System.Net.Http.Formatting.dll
+J:\Projects\NewsService\NewsService\bin\System.Net.Http.Formatting.xml

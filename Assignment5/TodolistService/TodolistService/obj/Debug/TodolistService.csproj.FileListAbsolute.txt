@@ -1,0 +1,12 @@
+J:\Projects\TodolistService\TodolistService\bin\TodolistService.dll.config
+J:\Projects\TodolistService\TodolistService\bin\TodolistService.dll
+J:\Projects\TodolistService\TodolistService\bin\TodolistService.pdb
+J:\Projects\TodolistService\TodolistService\obj\Debug\TodolistService.csprojResolveAssemblyReference.cache
+J:\Projects\TodolistService\TodolistService\obj\Debug\TodolistService.dll
+J:\Projects\TodolistService\TodolistService\obj\Debug\TodolistService.pdb
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\bin\TodolistService.dll.config
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\bin\TodolistService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\bin\TodolistService.pdb
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\obj\Debug\TodolistService.csprojResolveAssemblyReference.cache
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\obj\Debug\TodolistService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\obj\Debug\TodolistService.pdb

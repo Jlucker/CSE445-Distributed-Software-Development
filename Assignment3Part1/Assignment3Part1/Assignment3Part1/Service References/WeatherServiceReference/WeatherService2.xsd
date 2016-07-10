@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WeatherService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WeatherService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:17513/WeatherService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="Weather">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DailyForecasts" nillable="true" type="tns:ArrayOfDailyForecast" />
+      <xs:element minOccurs="0" name="Headline" nillable="true" type="tns:Headline" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Weather" nillable="true" type="tns:Weather" />
+  <xs:complexType name="ArrayOfDailyForecast">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DailyForecast" nillable="true" type="tns:DailyForecast" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDailyForecast" nillable="true" type="tns:ArrayOfDailyForecast" />
+  <xs:complexType name="DailyForecast">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Day" nillable="true" type="tns:Day" />
+      <xs:element minOccurs="0" name="EpochDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Link" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MobileLink" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Night" nillable="true" type="tns:Night" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Sources" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="Temperature" nillable="true" type="tns:Temperature" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DailyForecast" nillable="true" type="tns:DailyForecast" />
+  <xs:complexType name="Day">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Icon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IconPhrase" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Day" nillable="true" type="tns:Day" />
+  <xs:complexType name="Night">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Icon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IconPhrase" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Night" nillable="true" type="tns:Night" />
+  <xs:complexType name="Temperature">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Maximum" nillable="true" type="tns:Maximum" />
+      <xs:element minOccurs="0" name="Minimum" nillable="true" type="tns:Minimum" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Temperature" nillable="true" type="tns:Temperature" />
+  <xs:complexType name="Maximum">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Unit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Maximum" nillable="true" type="tns:Maximum" />
+  <xs:complexType name="Minimum">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Unit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Minimum" nillable="true" type="tns:Minimum" />
+  <xs:complexType name="Headline">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EffectiveDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EffectiveEpochDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndEpochDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Link" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MobileLink" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Severity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Headline" nillable="true" type="tns:Headline" />
+</xs:schema>

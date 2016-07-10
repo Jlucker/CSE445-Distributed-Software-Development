@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2007b26e-6e53-46c1-96e9-63208aebac91" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:27294/AddPerson.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AddPerson.xsd" MetadataType="Schema" ID="31227bea-00b2-4474-8b56-cf141fdf57f2" SourceId="1" SourceUrl="http://localhost:27294/AddPerson.svc?xsd=xsd0" />
+    <MetadataFile FileName="AddPerson.wsdl" MetadataType="Wsdl" ID="52447d9c-7f92-4667-bd4d-9c551d5d627d" SourceId="1" SourceUrl="http://localhost:27294/AddPerson.svc?wsdl" />
+    <MetadataFile FileName="AddPerson1.xsd" MetadataType="Schema" ID="a584f9c5-c357-43cb-89f4-aa659a3a6661" SourceId="1" SourceUrl="http://localhost:27294/AddPerson.svc?xsd=xsd2" />
+    <MetadataFile FileName="AddPerson2.xsd" MetadataType="Schema" ID="2732604c-286b-4930-8b35-398d96a480b1" SourceId="1" SourceUrl="http://localhost:27294/AddPerson.svc?xsd=xsd1" />
+    <MetadataFile FileName="AddPerson.disco" MetadataType="Disco" ID="5a7ad810-5362-4b37-a73c-4ef39dda1bd0" SourceId="1" SourceUrl="http://localhost:27294/AddPerson.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

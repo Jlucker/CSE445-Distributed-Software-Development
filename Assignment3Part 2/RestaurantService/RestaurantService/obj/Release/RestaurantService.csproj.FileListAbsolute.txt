@@ -1,0 +1,9 @@
+J:\Projects\RestaurantService\RestaurantService\bin\RestaurantService.dll.config
+J:\Projects\RestaurantService\RestaurantService\bin\RestaurantService.dll
+J:\Projects\RestaurantService\RestaurantService\bin\RestaurantService.pdb
+J:\Projects\RestaurantService\RestaurantService\bin\SimpleOAuth.dll
+J:\Projects\RestaurantService\RestaurantService\bin\SimpleOAuth.pdb
+J:\Projects\RestaurantService\RestaurantService\bin\SimpleOAuth.xml
+J:\Projects\RestaurantService\RestaurantService\obj\Release\RestaurantService.csprojResolveAssemblyReference.cache
+J:\Projects\RestaurantService\RestaurantService\obj\Release\RestaurantService.dll
+J:\Projects\RestaurantService\RestaurantService\obj\Release\RestaurantService.pdb

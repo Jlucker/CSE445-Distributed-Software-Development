@@ -1,0 +1,12 @@
+J:\Projects\AuthService\AuthService\bin\AuthService.dll.config
+J:\Projects\AuthService\AuthService\bin\AuthService.dll
+J:\Projects\AuthService\AuthService\bin\AuthService.pdb
+J:\Projects\AuthService\AuthService\obj\Debug\AuthService.csprojResolveAssemblyReference.cache
+J:\Projects\AuthService\AuthService\obj\Debug\AuthService.dll
+J:\Projects\AuthService\AuthService\obj\Debug\AuthService.pdb
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\bin\AuthService.dll.config
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\bin\AuthService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\bin\AuthService.pdb
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\obj\Debug\AuthService.csprojResolveAssemblyReference.cache
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\obj\Debug\AuthService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\AuthService\AuthService\obj\Debug\AuthService.pdb

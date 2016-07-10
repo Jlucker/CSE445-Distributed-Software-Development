@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/NewsService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/NewsService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="NewsList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="newsList" nillable="true" type="tns:ArrayOfNewsItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NewsList" nillable="true" type="tns:NewsList" />
+  <xs:complexType name="ArrayOfNewsItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="NewsItem" nillable="true" type="tns:NewsItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfNewsItem" nillable="true" type="tns:ArrayOfNewsItem" />
+  <xs:complexType name="NewsItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NewsItem" nillable="true" type="tns:NewsItem" />
+  <xs:complexType name="Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CurrentPage" type="xs:int" />
+      <xs:element minOccurs="0" name="OrderBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:int" />
+      <xs:element minOccurs="0" name="Pages" type="xs:int" />
+      <xs:element minOccurs="0" name="Results" nillable="true" type="tns:ArrayOfResult" />
+      <xs:element minOccurs="0" name="StartIndex" type="xs:int" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Total" type="xs:int" />
+      <xs:element minOccurs="0" name="UserTier" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Response" nillable="true" type="tns:Response" />
+  <xs:complexType name="ArrayOfResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Result" nillable="true" type="tns:Result" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfResult" nillable="true" type="tns:ArrayOfResult" />
+  <xs:complexType name="Result">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApiUrl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SectionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SectionName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WebPublicationDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WebTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WebUrl" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Result" nillable="true" type="tns:Result" />
+</xs:schema>

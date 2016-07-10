@@ -1,0 +1,26 @@
+﻿<Window x:Class="WebBrowser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebBrowser"
+        mc:Ignorable="d"
+        Title="Justin's Web Browser" Height="900.5" Width="1310.083">
+    <Grid>
+        <WebBrowser x:Name="webBrowser" HorizontalAlignment="Left" Height="622" Margin="10,38,0,0" VerticalAlignment="Top" Width="1280"/>
+        <TextBox x:Name="urlTextBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="http://" VerticalAlignment="Top" Width="1184"/>
+        <Button x:Name="goButton" Content="Go!" HorizontalAlignment="Left" Margin="1199,10,0,0" VerticalAlignment="Top" Width="91" Height="23" Click="goButton_Click"/>
+        <TextBox x:Name="stockTextBox" HorizontalAlignment="Left" Height="23" Margin="10,708,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353"/>
+        <Label x:Name="stockLabel" Content="Get Stock Quotes" HorizontalAlignment="Left" Margin="10,677,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="stockButton" Content="Go" HorizontalAlignment="Left" Margin="368,708,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="stockButton_Click"/>
+        <TextBox x:Name="stockResultTextBox" HorizontalAlignment="Left" Height="100" Margin="10,736,0,0" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" IsReadOnly="True"  VerticalAlignment="Top" Width="353"/>
+        <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Left" Margin="368,736,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="clearButton_Click"/>
+        <TextBox x:Name="encryptTextBox" HorizontalAlignment="Left" Height="23" Margin="854,708,0,0" TextWrapping="Wrap" Text="Please type your message here!" VerticalAlignment="Top" Width="353"/>
+        <Button x:Name="encryptButton" Content="Encrypt" HorizontalAlignment="Left" Margin="1212,708,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="encryptButton_Click"/>
+        <Label x:Name="stockLabel_Copy" Content="Encryption/Decryption Function" HorizontalAlignment="Left" Margin="854,677,0,0" VerticalAlignment="Top" Width="197"/>
+        <TextBox x:Name="encryptedResultTextBox" HorizontalAlignment="Left" Height="100" Margin="854,736,0,0" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" IsReadOnly="True"  VerticalAlignment="Top" Width="353"/>
+        <Button x:Name="sendButton" Content="Decrypt" HorizontalAlignment="Left" Margin="1212,736,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="SendButton_Click" ToolTip="Send to receiver!"/>
+        <Button x:Name="clearEncryptionButton" Content="Clear" HorizontalAlignment="Left" Margin="1212,764,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="clearEncryptButton_Click"/>
+
+    </Grid>
+</Window>

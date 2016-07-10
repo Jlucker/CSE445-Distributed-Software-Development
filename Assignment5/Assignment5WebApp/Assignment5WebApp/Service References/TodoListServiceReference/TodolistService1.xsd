@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TodolistService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TodolistService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="TodoList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="TodoItem" nillable="true" type="tns:ArrayOfTodoItem" />
+      <xs:element minOccurs="0" name="Xsd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Xsi" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TodoList" nillable="true" type="tns:TodoList" />
+  <xs:complexType name="ArrayOfTodoItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TodoItem" nillable="true" type="tns:TodoItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTodoItem" nillable="true" type="tns:ArrayOfTodoItem" />
+  <xs:complexType name="TodoItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GlobalID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemComplete" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemDateCreated" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemDueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemLabel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemNotes" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ListDateCreated" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ListID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ListLabel" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TodoItem" nillable="true" type="tns:TodoItem" />
+</xs:schema>

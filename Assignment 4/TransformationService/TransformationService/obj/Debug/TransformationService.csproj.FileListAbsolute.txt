@@ -1,0 +1,6 @@
+J:\Projects\TransformationService\TransformationService\bin\TransformationService.dll.config
+J:\Projects\TransformationService\TransformationService\bin\TransformationService.dll
+J:\Projects\TransformationService\TransformationService\bin\TransformationService.pdb
+J:\Projects\TransformationService\TransformationService\obj\Debug\TransformationService.csprojResolveAssemblyReference.cache
+J:\Projects\TransformationService\TransformationService\obj\Debug\TransformationService.dll
+J:\Projects\TransformationService\TransformationService\obj\Debug\TransformationService.pdb

@@ -1,0 +1,7 @@
+J:\Projects\WeatherService\WeatherService\bin\WeatherService.dll.config
+J:\Projects\WeatherService\WeatherService\bin\WeatherService.dll
+J:\Projects\WeatherService\WeatherService\bin\WeatherService.pdb
+J:\Projects\WeatherService\WeatherService\obj\Debug\WeatherService.csprojResolveAssemblyReference.cache
+J:\Projects\WeatherService\WeatherService\obj\Debug\WeatherService.dll
+J:\Projects\WeatherService\WeatherService\obj\Debug\WeatherService.pdb
+J:\Projects\WeatherService\WeatherService\bin\Newtonsoft.Json.xml

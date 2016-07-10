@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="57740879-702b-47b0-ae75-b7e162f05fbc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7114/TransformationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TransformationService.xsd" MetadataType="Schema" ID="19b08ae1-6aaa-49c8-a51c-2e9bfe0546a7" SourceId="1" SourceUrl="http://localhost:7114/TransformationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="TransformationService.wsdl" MetadataType="Wsdl" ID="3482a0e2-debc-416a-b57e-6c912fc00587" SourceId="1" SourceUrl="http://localhost:7114/TransformationService.svc?wsdl" />
+    <MetadataFile FileName="TransformationService1.xsd" MetadataType="Schema" ID="17ceaec5-30eb-4146-bec5-d2dd7ed42694" SourceId="1" SourceUrl="http://localhost:7114/TransformationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TransformationService2.xsd" MetadataType="Schema" ID="4ec2688f-32fa-44a4-b7a5-cd0a095e3a77" SourceId="1" SourceUrl="http://localhost:7114/TransformationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TransformationService.disco" MetadataType="Disco" ID="3d5b3016-b20f-4760-8a9d-b3f549e831e0" SourceId="1" SourceUrl="http://localhost:7114/TransformationService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

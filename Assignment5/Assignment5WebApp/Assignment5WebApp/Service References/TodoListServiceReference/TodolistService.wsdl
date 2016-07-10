@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TodolistService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://webstrar42.fulton.asu.edu/Page2/TodolistService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://webstrar42.fulton.asu.edu/Page2/TodolistService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://webstrar42.fulton.asu.edu/Page2/TodolistService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TodolistService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITodolistService_GetTodoList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTodoList" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_GetTodoList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTodoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_GetUsersTodoList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersTodoList" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_GetUsersTodoList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersTodoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_AddTodoItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddTodoItem" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_AddTodoItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddTodoItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_DeleteTodoItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteTodoItem" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_DeleteTodoItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteTodoItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_CompleteTodoItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:CompleteTodoItem" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_CompleteTodoItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CompleteTodoItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_EditTodoItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditTodoItem" />
+  </wsdl:message>
+  <wsdl:message name="ITodolistService_EditTodoItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditTodoItemResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITodolistService">
+    <wsdl:operation name="GetTodoList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITodolistService/GetTodoList" message="tns:ITodolistService_GetTodoList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITodolistService/GetTodoListResponse" message="tns:ITodolistService_GetTodoList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersTodoList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITodolistService/GetUsersTodoList" message="tns:ITodolistService_GetUsersTodoList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITodolistService/GetUsersTodoListResponse" message="tns:ITodolistService_GetUsersTodoList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddTodoItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITodolistService/AddTodoItem" message="tns:ITodolistService_AddTodoItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITodolistService/AddTodoItemResponse" message="tns:ITodolistService_AddTodoItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTodoItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITodolistService/DeleteTodoItem" message="tns:ITodolistService_DeleteTodoItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITodolistService/DeleteTodoItemResponse" message="tns:ITodolistService_DeleteTodoItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CompleteTodoItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITodolistService/CompleteTodoItem" message="tns:ITodolistService_CompleteTodoItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITodolistService/CompleteTodoItemResponse" message="tns:ITodolistService_CompleteTodoItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditTodoItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITodolistService/EditTodoItem" message="tns:ITodolistService_EditTodoItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITodolistService/EditTodoItemResponse" message="tns:ITodolistService_EditTodoItem_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITodolistService" type="tns:ITodolistService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTodoList">
+      <soap:operation soapAction="http://tempuri.org/ITodolistService/GetTodoList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersTodoList">
+      <soap:operation soapAction="http://tempuri.org/ITodolistService/GetUsersTodoList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTodoItem">
+      <soap:operation soapAction="http://tempuri.org/ITodolistService/AddTodoItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTodoItem">
+      <soap:operation soapAction="http://tempuri.org/ITodolistService/DeleteTodoItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CompleteTodoItem">
+      <soap:operation soapAction="http://tempuri.org/ITodolistService/CompleteTodoItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditTodoItem">
+      <soap:operation soapAction="http://tempuri.org/ITodolistService/EditTodoItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TodolistService">
+    <wsdl:port name="BasicHttpBinding_ITodolistService" binding="tns:BasicHttpBinding_ITodolistService">
+      <soap:address location="http://webstrar42.fulton.asu.edu/Page2/TodolistService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

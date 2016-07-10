@@ -1,0 +1,5 @@
+J:\Projects\TransformationService\TransformationService\bin\TransformationService.dll.config
+J:\Projects\TransformationService\TransformationService\bin\TransformationService.dll
+J:\Projects\TransformationService\TransformationService\bin\TransformationService.pdb
+J:\Projects\TransformationService\TransformationService\obj\Release\TransformationService.dll
+J:\Projects\TransformationService\TransformationService\obj\Release\TransformationService.pdb

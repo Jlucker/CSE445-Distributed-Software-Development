@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<TodoList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TodoItem>
+    <GlobalID>5639AA7C-484B-4B5D-BD95-AC3B9EC878EC</GlobalID>
+    <ListID>5639AA7C-484B-4B5D-BD95-AC3B9EC878EC</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>24ABDA17-0747-468E-B01A-7FD706FE21E8</ItemID>
+    <ItemLabel>Walk the Dog</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/04/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>true</ItemComplete>
+  </TodoItem>
+  <TodoItem>
+    <GlobalID>C06A1284-0817-4E28-9F76-A1DC80B4EF5A</GlobalID>
+    <ListID>C06A1284-0817-4E28-9F76-A1DC80B4EF5A</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>B9404346-CF15-4237-88CE-1AECD9845CA0</ItemID>
+    <ItemLabel>Take out the trash</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/13/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>true</ItemComplete>
+  </TodoItem>
+  <TodoItem>
+    <GlobalID>E1D9DBE1-3244-40C4-9893-BD2F70C53E55</GlobalID>
+    <ListID>E1D9DBE1-3244-40C4-9893-BD2F70C53E55</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>3AC0C339-B225-463E-BB62-798D28FA3526</ItemID>
+    <ItemLabel>Clean the room</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/14/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>false</ItemComplete>
+  </TodoItem>
+  <TodoItem>
+    <GlobalID>E1D9DBE1-3244-40C4-9893-BD2F70C53E55</GlobalID>
+    <ListID>E1D9DBE1-3244-40C4-9893-BD2F70C53E55</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>6D2EC9BE-02B5-4CBE-B584-111EBFE02F50</ItemID>
+    <ItemLabel>Dust the Pantry</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/12/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>false</ItemComplete>
+  </TodoItem>
+  <TodoItem>
+    <GlobalID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</GlobalID>
+    <ListID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>6CC02079-71EC-476A-8C24-FBDF5017B11F</ItemID>
+    <ItemLabel>Walk the dog</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/04/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>false</ItemComplete>
+  </TodoItem>
+  <TodoItem>
+    <GlobalID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</GlobalID>
+    <ListID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>6727FCB5-7274-44BB-95F3-551F65CB49BA</ItemID>
+    <ItemLabel>Take out the trash</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/05/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>false</ItemComplete>
+  </TodoItem>
+  <TodoItem>
+    <GlobalID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</GlobalID>
+    <ListID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>DBB59FF6-92BF-4018-BE7D-8E2C0D1FD9D6</ItemID>
+    <ItemLabel>Clean the living room</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/06/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>false</ItemComplete>
+  </TodoItem>
+  <TodoItem>
+    <GlobalID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</GlobalID>
+    <ListID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>BB2CC758-71F1-42A0-BA68-715A0A4BA6F3</ItemID>
+    <ItemLabel>Wash the car</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/07/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>true</ItemComplete>
+  </TodoItem>
+  <TodoItem>
+    <GlobalID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</GlobalID>
+    <ListID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>CBDF2B00-4DC5-4725-8D9A-4D29221C3725</ItemID>
+    <ItemLabel>Return library books</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/08/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>true</ItemComplete>
+  </TodoItem>
+  <TodoItem>
+    <GlobalID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</GlobalID>
+    <ListID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>2D7F11C7-A641-4887-B065-A07F589930AE</ItemID>
+    <ItemLabel>Do the laundry</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/14/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>true</ItemComplete>
+  </TodoItem>
+  <TodoItem>
+    <GlobalID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</GlobalID>
+    <ListID>B8EC12CC-92E3-47FC-8723-D688CA7AAE4F</ListID>
+    <ListLabel>Todo List</ListLabel>
+    <ListDateCreated>Today</ListDateCreated>
+    <ItemID>FC8E7425-EC65-409D-B691-EAA1C48238FC</ItemID>
+    <ItemLabel>Play Halo 5 Warzone Firefight</ItemLabel>
+    <ItemDateCreated>Today</ItemDateCreated>
+    <ItemDueDate>07/20/2016</ItemDueDate>
+    <ItemNotes>None</ItemNotes>
+    <ItemComplete>false</ItemComplete>
+  </TodoItem>
+</TodoList>

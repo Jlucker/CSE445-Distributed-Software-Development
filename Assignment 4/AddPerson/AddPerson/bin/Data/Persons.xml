@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <Name>
+      <First>Emma</First>
+      <Last>Hopkins</Last>
+    </Name>
+    <Credential>
+      <Id>ehopkins90</Id>
+      <Password Encryption="Yes">
+        <PasswordValue>Ymqk*Jup]0#qMCHiCN</PasswordValue>
+      </Password>
+    </Credential>
+    <Phone>
+      <Work>592-265-1522</Work>
+      <Cell Provider="T-Mobile">
+        <CellNumber>877-772-4876</CellNumber>
+      </Cell>
+    </Phone>
+    <Category CategoryValue="Friend" />
+  </Person>
+  <Person>
+    <Name>
+      <First>James</First>
+      <Last>Washington</Last>
+    </Name>
+    <Credential>
+      <Id>jwashington50</Id>
+      <Password Encryption="Yes">
+        <PasswordValue>;||ht4nd:%kZZ{tqv;</PasswordValue>
+      </Password>
+    </Credential>
+    <Phone>
+      <Work>975-763-5728</Work>
+      <Cell Provider="Vodaphone">
+        <CellNumber>808-627-2006</CellNumber>
+      </Cell>
+    </Phone>
+    <Category CategoryValue="Work" />
+  </Person>
+  <Person>
+    <Name>
+      <First>Harper</First>
+      <Last>Wagner</Last>
+    </Name>
+    <Credential>
+      <Id>hwagner85</Id>
+      <Password Encryption="Yes">
+        <PasswordValue>SJie{IR[^[N3vKFF3!</PasswordValue>
+      </Password>
+    </Credential>
+    <Phone>
+      <Work>669-870-5653</Work>
+      <Cell Provider="Verizon">
+        <CellNumber>303-596-6772</CellNumber>
+      </Cell>
+    </Phone>
+    <Category CategoryValue="Family" />
+  </Person>
+  <Person>
+    <Name>
+      <First>Abigail</First>
+      <Last>Ochoa</Last>
+    </Name>
+    <Credential>
+      <Id>aochoa6</Id>
+      <Password Encryption="Yes">
+        <PasswordValue>7aE_GyQc[ntv:m1Ru/</PasswordValue>
+      </Password>
+    </Credential>
+    <Phone>
+      <Work>783-314-1972</Work>
+      <Cell Provider="Sprint">
+        <CellNumber>300-171-8253</CellNumber>
+      </Cell>
+    </Phone>
+    <Category CategoryValue="Work" />
+  </Person>
+</Persons>

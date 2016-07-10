@@ -1,0 +1,5 @@
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\bin\TodolistService.dll.config
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\bin\TodolistService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\bin\TodolistService.pdb
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\obj\Release\TodolistService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\TodolistService\TodolistService\obj\Release\TodolistService.pdb

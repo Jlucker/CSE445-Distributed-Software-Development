@@ -1,0 +1,6 @@
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\bin\WeatherService.dll.config
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\bin\WeatherService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\bin\WeatherService.pdb
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\bin\Newtonsoft.Json.xml
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\obj\Release\WeatherService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\obj\Release\WeatherService.pdb

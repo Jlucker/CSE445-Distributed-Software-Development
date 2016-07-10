@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Persons">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Person" type="Person"></xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+    <xsd:complexType name="Person">
+      <xsd:sequence>
+        <xsd:element name="Name" type="Name"></xsd:element>
+        <xsd:element name="Credential" type="Credential"></xsd:element>
+        <xsd:element name="Phone" type="Phone"></xsd:element>
+        <xsd:element name="Category" type="Category"></xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="Name">
+      <xsd:sequence>
+        <xsd:element name="First" type="xsd:string"></xsd:element>
+        <xsd:element name="Last" type="xsd:string"></xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="Credential">
+      <xsd:sequence>
+        <xsd:element name="Id" type="xsd:string"></xsd:element>
+        <xsd:element name="Password" type="Password"></xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="Password">
+      <xsd:sequence>
+        <xsd:element name="PasswordValue" type="xsd:string"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="Encryption" type="xsd:string" use="required"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="Phone">
+      <xsd:sequence>
+        <xsd:element name="Work" type="xsd:string"></xsd:element>
+        <xsd:element name="Cell" type="Cell"></xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="Cell">
+      <xsd:sequence>
+        <xsd:element name="CellNumber" type="xsd:string"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="Provider" type="xsd:string" use="optional"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="Category">
+      <xsd:attribute name="CategoryValue" type="cat"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:simpleType name="cat">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Family" />
+      <xsd:enumeration value="Friend" />
+      <xsd:enumeration value="Work" />
+    </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

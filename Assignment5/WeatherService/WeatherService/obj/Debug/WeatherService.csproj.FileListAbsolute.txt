@@ -1,0 +1,14 @@
+J:\Projects\WeatherService\WeatherService\bin\WeatherService.dll.config
+J:\Projects\WeatherService\WeatherService\bin\WeatherService.dll
+J:\Projects\WeatherService\WeatherService\bin\WeatherService.pdb
+J:\Projects\WeatherService\WeatherService\obj\Debug\WeatherService.csprojResolveAssemblyReference.cache
+J:\Projects\WeatherService\WeatherService\obj\Debug\WeatherService.dll
+J:\Projects\WeatherService\WeatherService\obj\Debug\WeatherService.pdb
+J:\Projects\WeatherService\WeatherService\bin\Newtonsoft.Json.xml
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\bin\WeatherService.dll.config
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\bin\WeatherService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\bin\WeatherService.pdb
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\bin\Newtonsoft.Json.xml
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\obj\Debug\WeatherService.csprojResolveAssemblyReference.cache
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\obj\Debug\WeatherService.dll
+C:\Users\jlucker\Desktop\Assignment5\Assignment5\WeatherService\WeatherService\obj\Debug\WeatherService.pdb

@@ -1,0 +1,10 @@
+J:\Projects\AddPerson\AddPerson\bin\Data\Persons.css
+J:\Projects\AddPerson\AddPerson\bin\Data\Persons.xml
+J:\Projects\AddPerson\AddPerson\bin\Data\Persons.xsl
+J:\Projects\AddPerson\AddPerson\bin\Data\Persons.xsd
+J:\Projects\AddPerson\AddPerson\bin\AddPerson.dll.config
+J:\Projects\AddPerson\AddPerson\bin\AddPerson.dll
+J:\Projects\AddPerson\AddPerson\bin\AddPerson.pdb
+J:\Projects\AddPerson\AddPerson\obj\Release\AddPerson.dll
+J:\Projects\AddPerson\AddPerson\obj\Release\AddPerson.pdb
+J:\Projects\AddPerson\AddPerson\obj\Release\AddPerson.csprojResolveAssemblyReference.cache
