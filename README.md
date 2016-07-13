@@ -1,4 +1,4 @@
-# Distributed-Software-Development - Summer 2016
+# Distributed-Software-Development-Summer 2016
 
 <h3>Assignment1</h3>
 <ul>
